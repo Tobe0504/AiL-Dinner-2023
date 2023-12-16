@@ -1,0 +1,76 @@
+.container {
+  background-image: url("../../Assets/Images/eclipse.jpeg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+  padding: 40px;
+}
+
+.container > h4 {
+  color: #fff;
+  font-family: Futura;
+  font-size: 63.388px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+  width: 60%;
+}
+
+.container > p {
+  color: #fff;
+  font-family: Futura;
+  font-size: 23.77px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  width: 60%;
+  margin-bottom: 3rem;
+}
+
+.container > form {
+  width: 60%;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .container {
+    padding: 40px 16px;
+  }
+
+  .container > h4 {
+    font-size: 32px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+
+  .container > p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .container > form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 24px 16px;
+  }
+
+  .container > h4 {
+    font-size: 32px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+
+  .container > p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .container > form {
+    width: 100%;
+  }
+}
