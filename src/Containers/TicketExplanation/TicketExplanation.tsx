@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import Button from "../../Components/Button/Button";
 import Layout from "../../Components/Layout/Layout";
 import { tickets } from "../../Utilities/tickets";
@@ -7,6 +7,7 @@ import classes from "./TicketExplanation.module.css";
 const TicketExplanation = () => {
   // Router
   const { ticketSlug } = useParams();
+  const navigate = useNavigate();
 
   // Utils
   const activeTicket = tickets.find((data) => data.slug === ticketSlug);
@@ -36,7 +37,11 @@ const TicketExplanation = () => {
           })}
         </div>
         <div className={classes.buttonContainer}>
-          <Button>
+          <Button
+            onClick={() => {
+              navigate("/account-details");
+            }}
+          >
             Reserve a {activeTicket?.subCategory.toLowerCase()} ticket spot
           </Button>
         </div>

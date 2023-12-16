@@ -1,0 +1,133 @@
+.container {
+  background-image: url("../../Assets/Images/eclipse.jpeg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+.container > h4 {
+  color: #fff;
+  font-family: Futura;
+  font-size: 63.388px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 1rem;
+  width: 60%;
+}
+
+.container > p:nth-child(2) {
+  color: #fff;
+  font-family: Futura;
+  font-size: 23.77px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  width: 60%;
+  margin-bottom: 3rem;
+}
+
+.container > p {
+  color: #fff;
+  font-family: Futura;
+  font-size: 23.77px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  width: 60%;
+  margin-bottom: 0.5rem;
+}
+
+.container > p > span {
+  font-weight: 600;
+}
+
+.container > p:nth-child(7) {
+  color: #fff;
+  font-family: Futura;
+  font-size: 23.77px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 60%;
+  margin: 3rem 0 1rem 0;
+}
+
+.container > a > button {
+  width: 300px;
+  text-decoration: none;
+}
+
+.container > p > a {
+  color: #fff;
+}
+
+.container > a:last-child {
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .container {
+    padding: 24px 16px;
+    background: url("../../Assets/Images/eclipse2.jpeg");
+    min-height: calc(100vh - 80px);
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+
+  .container > h4 {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  .container > p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .container > p:nth-child(7),
+  .container > p:nth-child(2) {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .container > a > button {
+    width: 200px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 24px 16px;
+    background: url("../../Assets/Images/eclipse2.jpeg");
+    min-height: calc(100vh - 80px);
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+
+  .container > h4 {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  .container > p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .container > p:nth-child(7),
+  .container > p:nth-child(2) {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .container > a > button {
+    width: 200px;
+    text-decoration: none;
+  }
+}

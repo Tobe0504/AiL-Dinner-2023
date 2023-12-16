@@ -1,4 +1,5 @@
 import { useContext, useEffect, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import Button from "../../Components/Button/Button";
 import DropdownWithSearch from "../../Components/DropdownWithSearch/DropdownWithSearch";
 import Input from "../../Components/Input/Input";
@@ -23,6 +24,9 @@ const RegistrationForm = () => {
     });
   };
 
+  // Riuter
+  const navigate = useNavigate();
+
   //   Effects
   useEffect(() => {
     setRegistrationFormData((prevState) => {
@@ -38,7 +42,7 @@ const RegistrationForm = () => {
         <h4>Secure Your Spot</h4>
         <p>
           Complete the form below to reserve your tickets and be part of the
-          AIESEC on Lagos experience. Your journey into elegance awaits!
+          AIESEC in Lagos experience. Your journey into elegance awaits!
         </p>
 
         <form>
@@ -68,6 +72,9 @@ const RegistrationForm = () => {
             })}
             title="Tell us a ticket type we should prepare for you"
           />
+          <span className={classes.ticketCategories}>
+            See our ticket categories <Link to="/ticket-categories">here</Link>
+          </span>
           <TextArea
             label="Any suggestions"
             placeholder="Tell us your something you'll like to see in this years dinner"
@@ -78,6 +85,11 @@ const RegistrationForm = () => {
           <Button
             onClick={(e) => {
               e.preventDefault();
+              navigate(
+                `/account-details/${ticketType
+                  .replaceAll(" ", "-")
+                  .toLowerCase()}`
+              );
             }}
           >
             Register

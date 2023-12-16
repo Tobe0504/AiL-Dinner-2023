@@ -13,7 +13,7 @@ const TicketCategories = () => {
         <h4>Our Ticket Categories</h4>
         <p>
           Embark on a night of elegance and celebration – choose your ticket,
-          reserve your moment, and join us for an unforgettable AIESEC on Lagos
+          reserve your moment, and join us for an unforgettable AIESEC in Lagos
           experience.
         </p>
 
@@ -32,7 +32,11 @@ const TicketCategories = () => {
                   <p>{data.description}</p>
                   <p>Price: &#8358;{data.price}</p>
                   <div className={classes.buttonContainer}>
-                    <Button>
+                    <Button
+                      onClick={() => {
+                        navigate(`/account-details/${data.slug}`);
+                      }}
+                    >
                       Reserve a {data.subCategory.toLowerCase()} ticket
                     </Button>
                     <Button

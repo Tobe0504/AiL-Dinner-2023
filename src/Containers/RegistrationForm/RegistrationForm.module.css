@@ -34,6 +34,21 @@
   width: 60%;
 }
 
+.ticketCategories {
+  color: #fff;
+  font-family: Futura;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.ticketCategories > a {
+  color: #fff;
+}
+
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .container {
     padding: 40px 16px;
