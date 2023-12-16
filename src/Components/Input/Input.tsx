@@ -4,7 +4,7 @@ import classes from "./Input.module.css";
 type InputProps = {
   type?: string;
   label?: string;
-  onChange?: () => void;
+  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
   onBlur?: () => void;
   value?: string;
   isRequired?: boolean;
@@ -13,6 +13,7 @@ type InputProps = {
   placeholder?: string;
   tip?: string;
   style?: React.CSSProperties;
+  name?: string;
 };
 
 const Input = ({
@@ -27,6 +28,7 @@ const Input = ({
   placeholder,
   tip,
   style,
+  name,
 }: InputProps) => {
   // States
   const [invalid, setInvalid] = useState(false);
@@ -42,6 +44,7 @@ const Input = ({
       )}
       <input
         type={type ? type : "text"}
+        name={name}
         placeholder={placeholder}
         id={label}
         onChange={onChange}
