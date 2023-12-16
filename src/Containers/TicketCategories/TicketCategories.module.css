@@ -1,5 +1,10 @@
 .container {
   padding: 40px 24px;
+  /* background: url("../../Assets/Images/eclipse2.jpeg"); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-attachment: fixed;
 }
 
 .container > h4 {
@@ -34,8 +39,9 @@
 
 .ticket > img {
   width: 50%;
-  height: 278.311px;
+  height: 478.311px;
   object-fit: cover;
+  filter: grayscale();
 }
 
 .ticket:nth-child(even) > img {
@@ -100,6 +106,10 @@
     font-size: 18px;
   }
 
+  .ticket:nth-child(even) > img {
+    order: 0;
+  }
+
   .ticketsCOntainer {
     margin: 50px 0;
   }
@@ -157,6 +167,10 @@
 
   .container > p {
     font-size: 18px;
+  }
+
+  .ticket:nth-child(even) > img {
+    order: 0;
   }
 
   .ticketsCOntainer {

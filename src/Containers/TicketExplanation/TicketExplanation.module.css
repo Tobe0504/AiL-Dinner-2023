@@ -1,0 +1,124 @@
+.container {
+  background-image: url("../../Assets/Images/eclipse.jpeg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  padding: 40px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.textSection > h4 {
+  color: #fff;
+  font-family: Futura;
+  font-size: 63.388px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 2rem;
+  width: 70%;
+}
+
+.textSection > p {
+  color: #fff;
+  font-family: Futura;
+  font-size: 23.77px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  width: 90%;
+  margin-bottom: 3rem;
+}
+
+.imageSection {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 4rem 0;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.imageSection > img {
+  flex: 48%;
+  width: 48%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.buttonContainer > button {
+  width: 280px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .container {
+    padding: 24px 16px;
+    background: none;
+  }
+
+  .textSection > h4 {
+    font-size: 32px;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .textSection > p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .imageSection {
+    gap: 2rem;
+    margin: 2rem 0;
+    width: 100%;
+  }
+  .imageSection > img {
+    flex: 100%;
+    width: 100%;
+    height: 350px;
+  }
+
+  .buttonContainer > button {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 24px 16px;
+    background: none;
+  }
+
+  .textSection > h4 {
+    font-size: 32px;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .textSection > p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .imageSection {
+    gap: 2rem;
+    margin: 2rem 0;
+    width: 100%;
+  }
+  .imageSection > img {
+    flex: 100%;
+    width: 100%;
+    height: 350px;
+  }
+
+  .buttonContainer > button {
+    width: 250px;
+  }
+}

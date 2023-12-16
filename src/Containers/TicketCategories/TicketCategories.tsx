@@ -21,7 +21,10 @@ const TicketCategories = () => {
           {tickets.map((data, i) => {
             return (
               <div key={i} className={classes.ticket}>
-                <img src="" alt="" />
+                <img
+                  src="https://res.cloudinary.com/dmpdhnjqs/image/upload/v1695719300/samples/two-ladies.jpg"
+                  alt="Dinner"
+                />
                 <div className={classes.rightSection}>
                   <h4>
                     {data.name} ({data.subCategory})
@@ -35,7 +38,7 @@ const TicketCategories = () => {
                     <Button
                       type="secondary"
                       onClick={() => {
-                        navigate(data.name.replaceAll(" ", "-").toLowerCase());
+                        navigate(data.slug);
                       }}
                     >
                       Understand the concept

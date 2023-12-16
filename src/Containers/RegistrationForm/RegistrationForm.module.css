@@ -5,6 +5,7 @@
   background-position: center right;
   background-size: contain;
   padding: 40px;
+  overflow-y: auto;
 }
 
 .container > h4 {
