@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Button from "../../Components/Button/Button";
 import Layout from "../../Components/Layout/Layout";
+import { scrollToTheTop } from "../../HelperFunctions/scrollToTop";
 import { tickets } from "../../Utilities/tickets";
 import classes from "./TicketCategories.module.css";
 
@@ -35,6 +36,7 @@ const TicketCategories = () => {
                     <Button
                       onClick={() => {
                         navigate(`/account-details/${data.slug}`);
+                        scrollToTheTop();
                       }}
                     >
                       Reserve a {data.subCategory.toLowerCase()} ticket
@@ -43,6 +45,7 @@ const TicketCategories = () => {
                       type="secondary"
                       onClick={() => {
                         navigate(data.slug);
+                        scrollToTheTop();
                       }}
                     >
                       Understand the concept

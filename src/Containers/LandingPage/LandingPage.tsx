@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Button from "../../Components/Button/Button";
 import Layout from "../../Components/Layout/Layout";
+import { scrollToTheTop } from "../../HelperFunctions/scrollToTop";
 import classes from "./LandingPage.module.css";
 
 const LandingPage = () => {
@@ -18,6 +19,7 @@ const LandingPage = () => {
             <Button
               onClick={() => {
                 navigate("/registration");
+                scrollToTheTop();
               }}
             >
               Take your first step

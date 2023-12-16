@@ -6,6 +6,7 @@ import Input from "../../Components/Input/Input";
 import Layout from "../../Components/Layout/Layout";
 import TextArea from "../../Components/TextArea/TextArea";
 import { AppContext } from "../../Context/AppContext";
+import { scrollToTheTop } from "../../HelperFunctions/scrollToTop";
 import { tickets } from "../../Utilities/tickets";
 import classes from "./RegistrationForm.module.css";
 
@@ -90,6 +91,7 @@ const RegistrationForm = () => {
                   .replaceAll(" ", "-")
                   .toLowerCase()}`
               );
+              scrollToTheTop();
             }}
           >
             Register
