@@ -12,7 +12,7 @@ const LandingPage = () => {
         <div className={classes.innerContainer}>
           <h4>
             Welcome to the <br />
-            Eclipse
+            <span>Black </span> Affair
           </h4>
           <div className={classes.buttonContainer}>
             <Button
@@ -22,14 +22,14 @@ const LandingPage = () => {
             >
               Take your first step
             </Button>
-            <Button
+            {/* <Button
               type="secondary"
               onClick={() => {
                 navigate("/ticket-categories");
               }}
             >
               See our ticket categories
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

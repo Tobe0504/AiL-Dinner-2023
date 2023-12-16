@@ -1,3 +1,45 @@
+@keyframes twicher {
+  0% {
+    opacity: 0.5;
+  }
+  4% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0.5;
+  }
+  16% {
+    opacity: 1;
+  }
+  23% {
+    opacity: 0.5;
+  }
+  27% {
+    opacity: 1;
+  }
+  44% {
+    opacity: 0.5;
+  }
+  53% {
+    opacity: 1;
+  }
+  73% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0.5;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .container {
   background-image: url("../../Assets/Images/eclipse.jpeg");
   height: 100%;
@@ -20,11 +62,22 @@
   line-height: normal;
 }
 
+.innerContainer > h4 > span {
+  opacity: 0.6;
+  /* animation: twicher 0.9s ease-in-out; */
+  /* animation-iteration-count: infinite; */
+}
+
 .buttonContainer {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
   margin-top: 3rem;
+}
+
+.buttonContainer > button {
+  width: 220px;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
