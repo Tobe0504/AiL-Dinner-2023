@@ -1,0 +1,205 @@
+.container {
+  padding: 40px 24px;
+}
+
+.container > h4 {
+  color: #fff;
+  font-family: Futura;
+  font-size: 63.388px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+
+.container > p {
+  color: #fff;
+  font-family: Futura;
+  font-size: 23.77px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ticketsCOntainer {
+  margin: 50px 0;
+}
+
+.ticket {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 5rem;
+}
+
+.ticket > img {
+  width: 50%;
+  height: 278.311px;
+  object-fit: cover;
+}
+
+.ticket:nth-child(even) > img {
+  order: 1;
+}
+
+.rightSection {
+  width: 50%;
+}
+
+.rightSection > h4 {
+  color: #fff;
+  font-family: Futura;
+  font-size: 33.388px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+
+.rightSection > p {
+  color: #fff;
+  font-family: Futura;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  line-height: 140%;
+}
+
+.rightSection > p:nth-child(3) {
+  color: #fff;
+  font-family: Futura;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  margin: 24px 0;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.buttonContainer > button {
+  max-width: 292px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .container {
+    padding: 40px 16px;
+  }
+
+  .container > h4 {
+    font-size: 32px;
+    margin-bottom: 0.5rem;
+  }
+
+  .container > p {
+    font-size: 18px;
+  }
+
+  .ticketsCOntainer {
+    margin: 50px 0;
+  }
+
+  .ticket {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .ticket > img {
+    width: 100%;
+    height: 278.311px;
+    object-fit: cover;
+  }
+
+  .rightSection {
+    width: 100%;
+  }
+
+  .rightSection > h4 {
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+  }
+
+  .rightSection > p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .rightSection > p:nth-child(3) {
+    font-size: 18px;
+    margin: 24px 0;
+  }
+
+  .buttonContainer {
+    gap: 16px;
+  }
+
+  .buttonContainer > button {
+    max-width: 252px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 24px 16px;
+  }
+
+  .container > h4 {
+    font-size: 32px;
+    margin-bottom: 0.5rem;
+  }
+
+  .container > p {
+    font-size: 18px;
+  }
+
+  .ticketsCOntainer {
+    margin: 50px 0;
+  }
+
+  .ticket {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .ticket > img {
+    width: 100%;
+    height: 278.311px;
+    object-fit: cover;
+  }
+
+  .rightSection {
+    width: 100%;
+  }
+
+  .rightSection > h4 {
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+  }
+
+  .rightSection > p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .rightSection > p:nth-child(3) {
+    font-size: 18px;
+    margin: 24px 0;
+  }
+
+  .buttonContainer {
+    gap: 16px;
+  }
+
+  .buttonContainer > button {
+    max-width: 252px;
+  }
+}
