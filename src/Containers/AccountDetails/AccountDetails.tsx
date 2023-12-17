@@ -38,12 +38,12 @@ const AccountDetails = () => {
         </p>
         <p>
           Also, please upload proof of payment to{" "}
-          <a href="#0" target="_blank">
-            this
+          <a href="https://wa.link/pvbhl8" target="_blank" rel="noreferrer">
+            this number
           </a>{" "}
-          drive so we can confirm your payment
+          so we can confirm your payment
         </p>
-        <a href="#0" target="_blank">
+        <a href="https://wa.link/pvbhl8" target="_blank" rel="noreferrer">
           <Button>Upload proof of payment</Button>
         </a>
       </div>
