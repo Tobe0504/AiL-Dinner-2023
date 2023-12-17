@@ -1,3 +1,4 @@
+import { CircularProgress } from "@mui/material";
 import classes from "./Button.module.css";
 
 type ButtonPropTypes = {
@@ -6,16 +7,23 @@ type ButtonPropTypes = {
     | "primary"
     | "secondary"
     | "tertiary"
-    | "null"
     | "invalid"
-    | "delete"
+    | "null"
     | "black"
-    | "white";
+    | "white"
+    | "delete";
   disabled?: boolean;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
+  loading?: boolean;
 };
 
-const Button = ({ children, type, disabled, onClick }: ButtonPropTypes) => {
+const Button = ({
+  children,
+  type,
+  disabled,
+  onClick,
+  loading,
+}: ButtonPropTypes) => {
   return (
     <button
       className={`${classes.button} ${
@@ -38,7 +46,7 @@ const Button = ({ children, type, disabled, onClick }: ButtonPropTypes) => {
       onClick={onClick}
       disabled={disabled}
     >
-      {children}
+      {loading ? <CircularProgress color="inherit" size="2rem" /> : children}
     </button>
   );
 };

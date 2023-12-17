@@ -30,6 +30,10 @@
   margin-bottom: 3rem;
 }
 
+.notice {
+  margin: 1rem 0;
+}
+
 .container > form {
   width: 60%;
 }

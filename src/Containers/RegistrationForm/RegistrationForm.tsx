@@ -1,19 +1,25 @@
+import { Alert } from "@mui/material";
 import { useContext, useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Button from "../../Components/Button/Button";
 import DropdownWithSearch from "../../Components/DropdownWithSearch/DropdownWithSearch";
 import Input from "../../Components/Input/Input";
 import Layout from "../../Components/Layout/Layout";
 import TextArea from "../../Components/TextArea/TextArea";
 import { AppContext } from "../../Context/AppContext";
+import { capitalize } from "../../HelperFunctions/capitalize";
 import { scrollToTheTop } from "../../HelperFunctions/scrollToTop";
 import { tickets } from "../../Utilities/tickets";
 import classes from "./RegistrationForm.module.css";
 
 const RegistrationForm = () => {
   // COntext
-  const { registrationFormData, setRegistrationFormData } =
-    useContext(AppContext);
+  const {
+    registrationFormData,
+    setRegistrationFormData,
+    postDetails,
+    postDetailsRequest,
+  } = useContext(AppContext);
 
   // States
   const [ticketType, setTicketType] = useState("");
@@ -24,9 +30,6 @@ const RegistrationForm = () => {
       return { ...prevState, [e.target.name]: e.target.value };
     });
   };
-
-  // Riuter
-  const navigate = useNavigate();
 
   //   Effects
   useEffect(() => {
@@ -47,6 +50,18 @@ const RegistrationForm = () => {
         </p>
 
         <form>
+          <div className={classes.notice}>
+            {postDetailsRequest?.data && (
+              <Alert severity="success">
+                {capitalize(postDetailsRequest?.data)}
+              </Alert>
+            )}
+            {postDetailsRequest?.error && (
+              <Alert severity="error">
+                {capitalize(postDetailsRequest?.error)}
+              </Alert>
+            )}
+          </div>
           <Input
             label="Name"
             placeholder="Tell us your name"
@@ -57,7 +72,7 @@ const RegistrationForm = () => {
           />
           <Input
             label="Email"
-            placeholder="Tell us your name"
+            placeholder="Tell us your email"
             type="email"
             isRequired
             name="email"
@@ -86,13 +101,11 @@ const RegistrationForm = () => {
           <Button
             onClick={(e) => {
               e.preventDefault();
-              navigate(
-                `/account-details/${ticketType
-                  .replaceAll(" ", "-")
-                  .toLowerCase()}`
-              );
+
+              postDetails();
               scrollToTheTop();
             }}
+            loading={postDetailsRequest.isLoading}
           >
             Register
           </Button>
