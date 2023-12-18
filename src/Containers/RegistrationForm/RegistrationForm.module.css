@@ -39,9 +39,8 @@
 }
 
 .ticketCategories {
-  color: #fff;
   font-family: Futura;
-  font-size: 16px;
+  font-size: 18px;
   font-style: italic;
   font-weight: 400;
   line-height: normal;
@@ -51,7 +50,7 @@
 }
 
 .ticketCategories > a {
-  color: #fff;
+  color: #c6aa58;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
@@ -73,6 +72,10 @@
   .container > form {
     width: 100%;
   }
+
+  .ticketCategories {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -93,5 +96,9 @@
 
   .container > form {
     width: 100%;
+  }
+
+  .ticketCategories {
+    font-size: 16px;
   }
 }
