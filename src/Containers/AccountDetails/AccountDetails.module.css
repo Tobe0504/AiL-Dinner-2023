@@ -19,7 +19,7 @@
   width: 60%;
 }
 
-.container > p:nth-child(2) {
+.container > p:nth-child(4) {
   color: #fff;
   font-family: Futura;
   font-size: 23.77px;
@@ -28,6 +28,21 @@
   line-height: normal;
   width: 60%;
   margin-bottom: 3rem;
+}
+
+.container > p:nth-child(3) {
+  color: #c6aa58;
+  font-family: Futura;
+  font-size: 23.77px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  width: 60%;
+  margin: 2rem 0;
+}
+
+.container > p:nth-child(3) > a {
+  color: #c6aa58;
 }
 
 .container > p {
@@ -45,7 +60,7 @@
   font-weight: 600;
 }
 
-.container > p:nth-child(7) {
+.container > p:nth-child(8) {
   color: #fff;
   font-family: Futura;
   font-size: 23.77px;
@@ -89,8 +104,8 @@
     width: 100%;
   }
 
-  .container > p:nth-child(7),
-  .container > p:nth-child(2) {
+  .container > p:nth-child(8),
+  .container > p:nth-child(3) {
     width: 100%;
     font-size: 18px;
   }
@@ -120,8 +135,9 @@
     width: 100%;
   }
 
-  .container > p:nth-child(7),
-  .container > p:nth-child(2) {
+  .container > p:nth-child(8),
+  .container > p:nth-child(3),
+  .container > p:nth-child(4) {
     width: 100%;
     font-size: 18px;
   }

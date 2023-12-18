@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import Button from "../../Components/Button/Button";
 import Layout from "../../Components/Layout/Layout";
 import { tickets } from "../../Utilities/tickets";
@@ -24,9 +24,15 @@ const AccountDetails = () => {
           mission. Choose your path and become a valued part of our journey.
         </p>
         <p>
+          Also please make sure you have{" "}
+          <Link to="/registration">secured your spot</Link> if you would like to
+          be at the dinner
+        </p>
+        <p>
           Please send the amount {ticketSlug && `of ${activeTicket?.price}`} to
           the account details below:
         </p>
+
         <p>
           <span>Bank account name</span>: Scott Similoluwa
         </p>
