@@ -88,6 +88,18 @@ const RegistrationForm = () => {
             })}
             title="Tell us a ticket type we should prepare for you"
           />
+          {(registrationFormData?.ticketType === "The 8 Ball" ||
+            registrationFormData?.ticketType === "Bonnie and Clyde") && (
+            <Input
+              label="Can you tell us the other person(s) we should consider in this group"
+              placeholder="Please use commas to separate names where necessary"
+              type="text"
+              isRequired
+              name="otherPeople"
+              onChange={onChangeHandler}
+              value={registrationFormData?.otherPeople}
+            />
+          )}
           <span className={classes.ticketCategories}>
             See our ticket categories <Link to="/ticket-categories">here</Link>
           </span>

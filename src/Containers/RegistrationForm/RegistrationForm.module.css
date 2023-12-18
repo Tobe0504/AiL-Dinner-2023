@@ -41,12 +41,13 @@
 .ticketCategories {
   color: #fff;
   font-family: Futura;
-  font-size: 14px;
+  font-size: 16px;
   font-style: italic;
   font-weight: 400;
   line-height: normal;
   margin-bottom: 1rem;
   display: block;
+  color: #c6aa58;
 }
 
 .ticketCategories > a {

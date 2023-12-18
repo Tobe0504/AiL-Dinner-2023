@@ -28,13 +28,13 @@ const AccountDetails = () => {
           the account details below:
         </p>
         <p>
-          <span>Bank account name</span>: AIESEC in Lagos
+          <span>Bank account name</span>: Scott Similoluwa
         </p>
         <p>
-          <span>Account Number</span>: 12345678910
+          <span>Account Number</span>: 8127275126
         </p>
         <p>
-          <span>Bank</span>: United Bank for Africa
+          <span>Bank</span>: Opay
         </p>
         <p>
           Also, please upload proof of payment to{" "}

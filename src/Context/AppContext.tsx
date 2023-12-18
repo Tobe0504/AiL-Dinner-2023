@@ -18,6 +18,7 @@ type regustrationFormDataType = {
   email: string;
   ticketType: string;
   suggestions: string;
+  otherPeople?: string;
 };
 
 type requestType = {
@@ -36,6 +37,7 @@ const AppContextProvider = ({ children }: AppContextProviderProps) => {
       email: "",
       ticketType: "",
       suggestions: "",
+      otherPeople: "",
     });
 
   const [postDetailsRequest, setPostDetailsRequest] = useState<requestType>({
@@ -60,9 +62,9 @@ const AppContextProvider = ({ children }: AppContextProviderProps) => {
         email: registrationFormData.email,
         ticket_type: registrationFormData.ticketType,
         suggestions: registrationFormData.suggestions,
+        other_names: registrationFormData.otherPeople,
       })
       .then((res) => {
-        console.log(res);
         setPostDetailsRequest({
           isLoading: false,
           data: res?.data?.detail,
@@ -71,7 +73,6 @@ const AppContextProvider = ({ children }: AppContextProviderProps) => {
         navigate(`/account-details`);
       })
       .catch((err) => {
-        console.log(err);
         setPostDetailsRequest({
           isLoading: false,
           data: null,
