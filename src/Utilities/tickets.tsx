@@ -30,10 +30,12 @@ export const tickets = [
 
   {
     name: "The 8 Ball",
+    image:
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1702988835/8Ball_gbbdnu.jpg",
     description: [
       "Gather your friends and reserve 'The 8 Ball' for an unforgettable night of camaraderie and celebration. This ticket guarantees an exclusive table for eight, ensuring you and your companions have a prime spot to enjoy the festivities. Revel in the joy of togetherness and create a tableau of shared laughter and enjoyment.",
     ],
-    price: "95,000",
+    price: "100,000",
     subCategory: "Table of 8",
     slug: "the-8-ball",
     explanation: [
@@ -48,7 +50,7 @@ export const tickets = [
     description: [
       "Step into the realm of tradition and nostalgia with our 'Old Money' alumni tickets. Join fellow AIESECers in a celebration that pays homage to the roots of AIESEC. Reconnect with old friends, forge new connections, and relive the memories that shaped your AIESEC journey. Your presence adds a touch of history to this grand event.",
     ],
-    price: "18,000",
+    price: "20,000",
     subCategory: "Alumni",
     slug: "old-money",
     explanation: [

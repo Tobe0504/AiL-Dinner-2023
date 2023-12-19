@@ -1,5 +1,5 @@
 import classes from "./Header.module.css";
-import logo from "../../Assets/Images/logo.svg";
+import logo from "../../Assets/Images/logo.png";
 
 const Header = () => {
   return (

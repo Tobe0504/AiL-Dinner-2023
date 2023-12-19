@@ -14,14 +14,14 @@ const AccountDetails = () => {
   return (
     <Layout>
       <div className={classes.container}>
-        <h4>Reserve your spot...or make a donation 🤲🏽</h4>
+        <h4>Reserve your spot...or make a donation</h4>
         <p>
-          Embrace the spirit of generosity and secure your presence at our event
-          or contribute to our cause by making a donation. Your choice to
-          reserve a spot or make a donation empowers us to create memorable
-          experiences and make a positive impact. Whether you join us in person
-          or support us from afar, your participation fuels the success of our
-          mission. Choose your path and become a valued part of our journey.
+          Secure your presence at our event or contribute to our cause by making
+          a donation. Your choice to reserve a spot or make a donation empowers
+          us to create memorable experiences and make a positive impact. Whether
+          you join us in person or support us from afar, your participation
+          fuels the success of our mission. Choose your path and become a valued
+          part of our journey.
         </p>
         <p>
           Also please make sure you have{" "}
@@ -43,7 +43,7 @@ const AccountDetails = () => {
           <span>Bank</span>: Opay
         </p>
         <p>
-          Also, please upload proof of payment to{" "}
+          Also, send proof of payment to{" "}
           <a href="https://wa.link/pvbhl8" target="_blank" rel="noreferrer">
             this number
           </a>{" "}

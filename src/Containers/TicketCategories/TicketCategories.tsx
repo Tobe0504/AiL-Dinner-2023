@@ -23,7 +23,11 @@ const TicketCategories = () => {
             return (
               <div key={i} className={classes.ticket}>
                 <img
-                  src="https://res.cloudinary.com/dmpdhnjqs/image/upload/v1695719300/samples/two-ladies.jpg"
+                  src={
+                    data.image
+                      ? data.image
+                      : "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1695719300/samples/two-ladies.jpg"
+                  }
                   alt="Dinner"
                 />
                 <div className={classes.rightSection}>

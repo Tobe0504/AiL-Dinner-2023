@@ -81,6 +81,7 @@
 @media screen and (max-width: 767px) {
   .container {
     padding: 24px 16px;
+    background-image: url("../../Assets/Images/eclipse2.jpeg");
   }
 
   .container > h4 {
