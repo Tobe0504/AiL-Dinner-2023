@@ -1,0 +1,121 @@
+@keyframes twicher {
+  0% {
+    opacity: 0.5;
+  }
+  4% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0.5;
+  }
+  16% {
+    opacity: 1;
+  }
+  23% {
+    opacity: 0.5;
+  }
+  27% {
+    opacity: 1;
+  }
+  44% {
+    opacity: 0.5;
+  }
+  53% {
+    opacity: 1;
+  }
+  73% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0.5;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  background-image: url("https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703343976/dinner2_kpfo3q.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 80px);
+}
+
+.innerContainer > h4 {
+  color: #fff;
+  text-align: center;
+  font-family: Futura;
+  font-size: 63.388px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.innerContainer > h4 > span {
+  opacity: 0.6;
+  /* animation: twicher 0.9s ease-in-out; */
+  /* animation-iteration-count: infinite; */
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.buttonContainer > button {
+  width: 220px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .container {
+    padding: 24px;
+  }
+
+  .innerContainer > h4 {
+    font-size: 40px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0;
+  }
+
+  .innerContainer {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .innerContainer > h4 {
+    font-size: 40px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 3rem;
+    width: 100%;
+  }
+}
