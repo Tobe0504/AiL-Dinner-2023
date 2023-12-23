@@ -12,6 +12,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Navigate to="/error-page" />} />
       <Route path="/error-page" element={<ErrorPage />} />
+      <Route path="*" element={<Navigate to="/error-page" />} />
 
       {/* <Route path="/register-or-donate" element={<RegisterOrDonate />} />
 
