@@ -84,12 +84,13 @@ const RegistrationForm = () => {
             selected={ticketType}
             setSelected={setTicketType}
             options={tickets.map((data) => {
-              return data.name;
+              return `${data.name} (${data.subCategory})`;
             })}
             title="Tell us a ticket type we should prepare for you"
           />
-          {(registrationFormData?.ticketType === "The 8 Ball" ||
-            registrationFormData?.ticketType === "Bonnie and Clyde") && (
+          {(registrationFormData?.ticketType === "The 8 Ball (Table of 8)" ||
+            registrationFormData?.ticketType ===
+              "Bonnie and Clyde (Couple)") && (
             <Input
               label="Can you tell us the other person(s) we should consider in this group"
               placeholder="Please use commas to separate names where necessary"

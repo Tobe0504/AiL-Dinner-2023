@@ -22,15 +22,9 @@ const TicketExplanation = () => {
             return <p key={i}>{data}</p>;
           })}
           <div className={classes.imageSection}>
-            <img
-              src="https://res.cloudinary.com/dmpdhnjqs/image/upload/v1695719310/cld-sample.jpg"
-              alt="Dinner"
-            />
-
-            <img
-              src="https://res.cloudinary.com/dmpdhnjqs/image/upload/v1695719310/cld-sample.jpg"
-              alt="Dinner"
-            />
+            {activeTicket?.images?.map((data, i) => {
+              return <img src={data} alt="Dinner " key={i} />;
+            })}
           </div>
           {activeTicket?.explanation.slice(1).map((data, i) => {
             return <p key={i}>{data}</p>;

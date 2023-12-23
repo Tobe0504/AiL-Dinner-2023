@@ -14,7 +14,7 @@
   font-style: italic;
   font-weight: 600;
   line-height: normal;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .container > p {
@@ -24,6 +24,7 @@
   font-style: italic;
   font-weight: 400;
   line-height: normal;
+  width: 40%;
 }
 
 .ticketsCOntainer {
@@ -37,14 +38,33 @@
   margin-bottom: 5rem;
 }
 
-.ticket > img {
+.imageSection {
   width: 50%;
-  height: 478.311px;
-  object-fit: cover;
-  filter: grayscale();
+  height: 578.311px;
+  position: relative;
 }
 
-.ticket:nth-child(even) > img {
+.imageOverlay {
+  position: absolute;
+  height: 70px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.imageSection > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top bottom;
+}
+
+.ticket:nth-child(even) > .imageSection {
   order: 1;
 }
 
@@ -104,6 +124,7 @@
 
   .container > p {
     font-size: 18px;
+    width: 100%;
   }
 
   .ticket:nth-child(even) > img {
@@ -167,9 +188,10 @@
 
   .container > p {
     font-size: 18px;
+    width: 100%;
   }
 
-  .ticket:nth-child(even) > img {
+  .ticket:nth-child(even) > .imageSection {
     order: 0;
   }
 
@@ -183,9 +205,12 @@
     margin-bottom: 5rem;
   }
 
-  .ticket > img {
+  .imageSection {
     width: 100%;
-    height: 278.311px;
+    height: 378.311px;
+  }
+
+  .imageSection > img {
     object-fit: cover;
   }
 

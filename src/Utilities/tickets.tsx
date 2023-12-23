@@ -4,6 +4,12 @@ export const tickets = [
     description: [
       "Immerse yourself in the elegance of the night with our Ebony Entry. Indulge in a sophisticated evening filled with captivating conversations, delightful cuisine, and unforgettable moments. This ticket is your key to a memorable experience, where you can dance under the stars and create lasting memories.",
     ],
+    image:
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349134/IMG_8436_ipbupp.jpg",
+    images: [
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349120/IMG_8518_gnujqd.jpg",
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349127/IMG_8543_apa3dh.jpg",
+    ],
     price: "13,000",
     subCategory: "Single",
     slug: "ebony-entry",
@@ -18,7 +24,13 @@ export const tickets = [
     description: [
       "Embark on a romantic journey with our Bonnie and Clyde couple tickets. Share an enchanting night with your partner, where love is in the air, and every moment is a cherished memory. Enjoy a special evening of fine dining, dancing, and creating a connection that lasts a lifetime.",
     ],
-    price: "25,000",
+    image:
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349339/IMG_8613_pqz7bo.jpg",
+    images: [
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349117/IMG_2081_sxzz0z.jpg",
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349126/IMG_8471_h1wj1l.jpg",
+    ],
+    price: "26,000",
     subCategory: "Couple",
     slug: "bonnie-and-clyde",
     explanation: [
@@ -31,7 +43,8 @@ export const tickets = [
   {
     name: "The 8 Ball",
     image:
-      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1702988835/8Ball_gbbdnu.jpg",
+      // "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1702988835/8Ball_gbbdnu.jpg",
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703351988/8-ball_ku2ywp.jpg",
     description: [
       "Gather your friends and reserve 'The 8 Ball' for an unforgettable night of camaraderie and celebration. This ticket guarantees an exclusive table for eight, ensuring you and your companions have a prime spot to enjoy the festivities. Revel in the joy of togetherness and create a tableau of shared laughter and enjoyment.",
     ],
@@ -50,7 +63,13 @@ export const tickets = [
     description: [
       "Step into the realm of tradition and nostalgia with our 'Old Money' alumni tickets. Join fellow AIESECers in a celebration that pays homage to the roots of AIESEC. Reconnect with old friends, forge new connections, and relive the memories that shaped your AIESEC journey. Your presence adds a touch of history to this grand event.",
     ],
-    price: "20,000",
+    image:
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349331/IMG_8602_2_ait7qm.jpg",
+    images: [
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703343976/dinner2_kpfo3q.jpg",
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349132/IMG_8558_p6x6cz.jpg",
+    ],
+    price: "15,000",
     subCategory: "Alumni",
     slug: "old-money",
     explanation: [

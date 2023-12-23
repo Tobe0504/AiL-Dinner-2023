@@ -8,28 +8,32 @@ import classes from "./TicketCategories.module.css";
 const TicketCategories = () => {
   // Router
   const navigate = useNavigate();
+
   return (
     <Layout>
       <div className={classes.container}>
         <h4>Our Ticket Categories</h4>
-        <p>
+        {/* <p>
           Embark on a night of elegance and celebration – choose your ticket,
           reserve your moment, and join us for an unforgettable AIESEC in Lagos
           experience.
-        </p>
+        </p> */}
 
         <div className={classes.ticketsCOntainer}>
           {tickets.map((data, i) => {
             return (
               <div key={i} className={classes.ticket}>
-                <img
-                  src={
-                    data.image
-                      ? data.image
-                      : "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1695719300/samples/two-ladies.jpg"
-                  }
-                  alt="Dinner"
-                />
+                <div className={classes.imageSection}>
+                  <div className={classes.imageOverlay}></div>
+                  <img
+                    src={
+                      data.image
+                        ? data.image
+                        : "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1695719300/samples/two-ladies.jpg"
+                    }
+                    alt="Dinner"
+                  />
+                </div>
                 <div className={classes.rightSection}>
                   <h4>
                     {data.name} ({data.subCategory})

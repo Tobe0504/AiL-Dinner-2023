@@ -2,11 +2,14 @@
   height: 100%;
   padding: 0 24px;
   background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .container > img {
-  /* width: 200px; */
-  height: 100%;
+  width: 230px;
+  height: 70%;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {

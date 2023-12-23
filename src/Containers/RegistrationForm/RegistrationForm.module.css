@@ -82,6 +82,7 @@
   .container {
     padding: 24px 16px;
     background-image: url("../../Assets/Images/eclipse2.jpeg");
+    background-attachment: fixed;
   }
 
   .container > h4 {
