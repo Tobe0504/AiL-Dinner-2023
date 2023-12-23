@@ -5,7 +5,8 @@ const ErrorPage = () => {
     <div className={classes.container}>
       <div className={classes.innerContainer}>
         <h4>
-          We <span>will</span> be back!
+          The <span>Black Affair</span> <br />
+          will be back
         </h4>
       </div>
     </div>
