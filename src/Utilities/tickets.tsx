@@ -44,7 +44,7 @@ export const tickets = [
     name: "The 8 Ball",
     image:
       // "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1702988835/8Ball_gbbdnu.jpg",
-      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703351988/8-ball_ku2ywp.jpg",
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703353215/8ball-02_jyzdw7.jpg",
     description: [
       "Gather your friends and reserve 'The 8 Ball' for an unforgettable night of camaraderie and celebration. This ticket guarantees an exclusive table for eight, ensuring you and your companions have a prime spot to enjoy the festivities. Revel in the joy of togetherness and create a tableau of shared laughter and enjoyment.",
     ],
