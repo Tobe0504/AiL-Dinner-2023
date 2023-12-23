@@ -2,36 +2,35 @@ import { useNavigate } from "react-router-dom";
 import Button from "../../Components/Button/Button";
 import Layout from "../../Components/Layout/Layout";
 import { scrollToTheTop } from "../../HelperFunctions/scrollToTop";
-import classes from "./LandingPage.module.css";
+import classes from "./RegisterOrDonate.module.css";
 
-const LandingPage = () => {
+const RegisterOrDonate = () => {
   // Router
   const navigate = useNavigate();
+
   return (
     <Layout>
       <div className={classes.container}>
         <div className={classes.innerContainer}>
-          <h4>
-            Welcome to the <br />
-            <span>Black </span> Affair
-          </h4>
+          <h4>Decide How You'd Like to Participate</h4>
           <div className={classes.buttonContainer}>
             <Button
               onClick={() => {
-                navigate("/register-or-donate");
+                navigate("/account-details");
                 scrollToTheTop();
               }}
             >
-              Take your first step
+              Donate
             </Button>
-            {/* <Button
+            <Button
               type="secondary"
               onClick={() => {
-                navigate("/ticket-categories");
+                navigate("/registration");
+                scrollToTheTop();
               }}
             >
-              See our ticket categories
-            </Button> */}
+              Register
+            </Button>
           </div>
         </div>
       </div>
@@ -39,4 +38,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default RegisterOrDonate;
