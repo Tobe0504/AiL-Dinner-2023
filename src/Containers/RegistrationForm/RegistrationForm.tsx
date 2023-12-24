@@ -102,9 +102,7 @@ const RegistrationForm = () => {
               name="otherPeople"
               onChange={onChangeHandler}
               value={registrationFormData?.otherPeople}
-              tip={
-                "For every extra non-AIESECer, ticket fees increase by ₦17,000"
-              }
+              tip={"For every non-AIESECer, the ticket fee will be ₦17,000"}
             />
           )}
           <span className={classes.ticketCategories}>
