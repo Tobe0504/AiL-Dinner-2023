@@ -20,7 +20,7 @@ export const tickets = [
     ],
   },
   {
-    name: "Bonnie and Clyde",
+    name: "Bonnie and Clyde-AIESEC Couple",
     description: [
       "Embark on a romantic journey with our Bonnie and Clyde couple tickets. Share an enchanting night with your partner, where love is in the air, and every moment is a cherished memory. Enjoy a special evening of fine dining, dancing, and creating a connection that lasts a lifetime.",
     ],
@@ -32,29 +32,32 @@ export const tickets = [
     ],
     price: "26,000",
     subCategory: "Couple",
-    slug: "bonnie-and-clyde",
+    slug: "bonnie-and-clyde-aiesec",
     explanation: [
       "Ignite the flames of romance with our Bonnie and Clyde couple tickets priced at ₦26,000. Beyond the shared admission to the celebration, these tickets offer a cost-effective way to turn an ordinary night into an extraordinary experience. Indulge in the magic of togetherness, creating memories that will be cherished for a lifetime. Bonnie and Clyde tickets not only save you money but guarantee a romantic escape into an enchanting world where love takes center stage.",
-      "Celebrate love and connection with our Bonnie and Clyde couple tickets at ₦25,000. These tickets aren't just about gaining entry to the festivities; they are an investment in shared moments and unforgettable experiences. By choosing Bonnie and Clyde, you're not only reducing costs but ensuring a romantic and memorable night out. Join us for an enchanting celebration where love flourishes, and every shared glance becomes a part of your unique love story.",
+      "Celebrate love and connection with our Bonnie and Clyde couple tickets at ₦26,000. These tickets aren't just about gaining entry to the festivities; they are an investment in shared moments and unforgettable experiences. By choosing Bonnie and Clyde, you're not only reducing costs but ensuring a romantic and memorable night out. Join us for an enchanting celebration where love flourishes, and every shared glance becomes a part of your unique love story.",
       "For couples seeking a magical night that won't break the bank, our Bonnie and Clyde tickets at ₦25,000 offer the perfect solution. These tickets not only grant you access to a romantic celebration but also provide a cost-effective way to enjoy a special evening with your loved one. Immerse yourselves in the enchantment of the night, where every shared smile and dance becomes a cherished memory. Choose Bonnie and Clyde for a budget-friendly, love-filled experience.",
     ],
   },
 
   {
-    name: "The 8 Ball",
-    image:
-      // "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1702988835/8Ball_gbbdnu.jpg",
-      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703353215/8ball-02_jyzdw7.jpg",
+    name: "Bonnie and Clyde-Partially AIESEC ",
     description: [
-      "Gather your friends and reserve 'The 8 Ball' for an unforgettable night of camaraderie and celebration. This ticket guarantees an exclusive table for eight, ensuring you and your companions have a prime spot to enjoy the festivities. Revel in the joy of togetherness and create a tableau of shared laughter and enjoyment.",
+      "Experience the magic of togetherness with our Harmony Duo couple tickets priced at 30,000. Perfect for couples where one is an AIESECer, these tickets grant both of you access to the celebration. Revel in the joy of shared moments and create memories that will last a lifetime. Join us for a night where love and AIESEC spirit come together, making it an extraordinary experience for both you and your partner",
     ],
-    price: "100,000",
-    subCategory: "Table of 8",
-    slug: "the-8-ball",
+    image:
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349126/IMG_8471_h1wj1l.jpg",
+    images: [
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349117/IMG_2081_sxzz0z.jpg",
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349126/IMG_8471_h1wj1l.jpg",
+    ],
+    price: "30,000",
+    subCategory: "Couple",
+    slug: "bonnie-and-clyde-partial",
     explanation: [
-      "The 8 Ball' table of 8 tickets at ₦100,000 is your ticket to an exclusive and cost-efficient celebration. Gather your friends for a night of camaraderie and joy without worrying about individual expenses. By opting for this group package, you not only secure a prime location for your party but also ensure that the shared memories created around 'The 8 Ball' will be the talk of your social circle for years to come.",
-      "Make a statement at AIESEC in Lagos with 'The 8 Ball' table of 8 tickets priced at ₦100,000. Beyond the cost efficiency of pooling resources with friends, this ticket category ensures that your group enjoys an exclusive and centralized location for an unforgettable celebration. Dive into the festivities with your closest companions, sharing laughter, joy, and the economic advantage of a collective experience that is both memorable and budget-friendly.",
-      "Elevate your celebration with 'The 8 Ball' table of 8 tickets at ₦100,000, offering an exclusive and cost-effective way to enjoy the night. This group package not only guarantees your friends a prime spot at the event but also turns the evening into a shared experience. Revel in the company of your closest companions, where the combined joy and savings make 'The 8 Ball' the perfect choice for those who appreciate both camaraderie and economy.",
+      "Celebrate the blend of love and connection with our Love Unites couple tickets at ₦30,000. Tailored for couples where one is not an AIESECer, these tickets offer more than just entry to the festivities. Invest in shared moments and unforgettable experiences that transcend AIESEC boundaries. By choosing Love Unites, you're not only reducing costs but ensuring a night filled with romance and cherished memories.",
+      "Celebrate love and connection with our Bonnie and Clyde couple tickets at ₦25,000. These tickets aren't just about gaining entry to the festivities; they are an investment in shared moments and unforgettable experiences. By choosing Bonnie and Clyde, you're not only reducing costs but ensuring a romantic and memorable night out. Join us for an enchanting celebration where love flourishes, and every shared glance becomes a part of your unique love story.",
+      "For couples seeking a magical night that won't break the bank, our Bonnie and Clyde tickets at ₦25,000 offer the perfect solution. These tickets not only grant you access to a romantic celebration but also provide a cost-effective way to enjoy a special evening with your loved one. Immerse yourselves in the enchantment of the night, where every shared smile and dance becomes a cherished memory. Choose Bonnie and Clyde for a budget-friendly, love-filled experience.",
     ],
   },
 
@@ -76,6 +79,24 @@ export const tickets = [
       "Step into the nostalgic embrace of 'Old Money' with alumni tickets priced at ₦15,000. More than just a ticket, this option is a tribute to the shared history of AIESEC graduates. By choosing 'Old Money,' you not only ensure a cost-effective entry into the celebration but also join a gathering of like-minded individuals eager to reconnect and create new memories that honor the legacy of our esteemed alumni.",
       "Join the legacy with 'Old Money' alumni tickets at ₦20,000, offering a cost-effective way to reconnect with former classmates and relive the glory days of AIESEC. Beyond the entrance to the celebration, these tickets are a bridge between the past and the present, providing a unique opportunity to forge new connections and celebrate the enduring spirit of AIESEC. Choose 'Old Money' for a night of reminiscence, shared stories, and the joy of building new chapters together.",
       "For graduates seeking an entryway into the rich history of AIESEC, 'Old Money' alumni tickets at ₦15,000 offer a cost-effective and meaningful choice. This ticket not only grants access to the celebration but also invites you to be a part of a community that cherishes the legacy of AIESEC. Join us for a night of nostalgia, where 'Old Money' becomes a bridge between the past and the future, connecting alumni in a shared experience that transcends time.",
+    ],
+  },
+
+  {
+    name: "The 8 Ball",
+    image:
+      // "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1702988835/8Ball_gbbdnu.jpg",
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703353215/8ball-02_jyzdw7.jpg",
+    description: [
+      "Gather your friends and reserve 'The 8 Ball' for an unforgettable night of camaraderie and celebration. This ticket guarantees an exclusive table for eight, ensuring you and your companions have a prime spot to enjoy the festivities. Revel in the joy of togetherness and create a tableau of shared laughter and enjoyment.",
+    ],
+    price: "100,000",
+    subCategory: "Table of 8",
+    slug: "the-8-ball",
+    explanation: [
+      "The 8 Ball' table of 8 tickets at ₦100,000 is your ticket to an exclusive and cost-efficient celebration. Gather your friends for a night of camaraderie and joy without worrying about individual expenses. By opting for this group package, you not only secure a prime location for your party but also ensure that the shared memories created around 'The 8 Ball' will be the talk of your social circle for years to come.",
+      "Make a statement at AIESEC in Lagos with 'The 8 Ball' table of 8 tickets priced at ₦100,000. Beyond the cost efficiency of pooling resources with friends, this ticket category ensures that your group enjoys an exclusive and centralized location for an unforgettable celebration. Dive into the festivities with your closest companions, sharing laughter, joy, and the economic advantage of a collective experience that is both memorable and budget-friendly.",
+      "Elevate your celebration with 'The 8 Ball' table of 8 tickets at ₦100,000, offering an exclusive and cost-effective way to enjoy the night. This group package not only guarantees your friends a prime spot at the event but also turns the evening into a shared experience. Revel in the company of your closest companions, where the combined joy and savings make 'The 8 Ball' the perfect choice for those who appreciate both camaraderie and economy.",
     ],
   },
 ];
