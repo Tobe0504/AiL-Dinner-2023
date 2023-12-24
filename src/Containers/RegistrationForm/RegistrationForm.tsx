@@ -88,9 +88,12 @@ const RegistrationForm = () => {
             })}
             title="Tell us a ticket type we should prepare for you"
           />
+
           {(registrationFormData?.ticketType === "The 8 Ball (Table of 8)" ||
             registrationFormData?.ticketType ===
-              "Bonnie and Clyde (Couple)") && (
+              "Bonnie and Clyde-AIESEC Couple (Couple)" ||
+            registrationFormData?.ticketType ===
+              "Bonnie and Clyde-Partially AIESEC  (Couple)") && (
             <Input
               label="Can you tell us the other person(s) we should consider in this group"
               placeholder="Please use commas to separate names where necessary"
@@ -99,6 +102,9 @@ const RegistrationForm = () => {
               name="otherPeople"
               onChange={onChangeHandler}
               value={registrationFormData?.otherPeople}
+              tip={
+                "For every extra non-AIESECer, ticket fees increase by ₦17,000"
+              }
             />
           )}
           <span className={classes.ticketCategories}>
