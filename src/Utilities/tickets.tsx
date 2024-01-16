@@ -20,25 +20,25 @@ export const tickets = [
     ],
   },
 
-  {
-    name: "Single Bite",
-    description: [
-      "Immerse yourself in the elegance of the night with our Single Bite Non-AIESECer ticket. Indulge in a sophisticated evening filled with captivating conversations, delightful cuisine, and unforgettable moments. This ticket is your key to a memorable experience, where you can dance under the stars and create lasting memories.",
-    ],
-    image:
-      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349127/IMG_8543_apa3dh.jpg",
-    images: [
-      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349120/IMG_8518_gnujqd.jpg",
-      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349132/IMG_8558_p6x6cz.jpg",
-    ],
-    price: "17,000",
-    subCategory: "Single",
-    slug: "single-bite",
-    explanation: [
-      "Delight in the epitome of sophistication with our Single Bite tickets priced at ₦17,000. Crafted for non-AIESECers, these tickets go beyond merely granting access to an exclusive evening. They are the perfect choice for those who value a personal touch without compromising on quality. By opting for the Single Bite experience, you ensure not only a cost-effective entry but also open the door to a night of refined elegance. Immerse yourself in an extraordinary evening where every moment is tailored to your individual enjoyment.",
-      "These tickets are your passport to a night of enchantment, where every detail is crafted to ensure your enjoyment. By choosing the Single Bite Escape, you're not just saving on costs but investing in a memorable experience that transcends the ordinary. Join us for a celebration that proves sophistication can be accessible, and a great time doesn't have to come with a hefty price",
-    ],
-  },
+  // {
+  //   name: "Single Bite",
+  //   description: [
+  //     "Immerse yourself in the elegance of the night with our Single Bite Non-AIESECer ticket. Indulge in a sophisticated evening filled with captivating conversations, delightful cuisine, and unforgettable moments. This ticket is your key to a memorable experience, where you can dance under the stars and create lasting memories.",
+  //   ],
+  //   image:
+  //     "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349127/IMG_8543_apa3dh.jpg",
+  //   images: [
+  //     "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349120/IMG_8518_gnujqd.jpg",
+  //     "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349132/IMG_8558_p6x6cz.jpg",
+  //   ],
+  //   price: "17,000",
+  //   subCategory: "Single",
+  //   slug: "single-bite",
+  //   explanation: [
+  //     "Delight in the epitome of sophistication with our Single Bite tickets priced at ₦17,000. Crafted for non-AIESECers, these tickets go beyond merely granting access to an exclusive evening. They are the perfect choice for those who value a personal touch without compromising on quality. By opting for the Single Bite experience, you ensure not only a cost-effective entry but also open the door to a night of refined elegance. Immerse yourself in an extraordinary evening where every moment is tailored to your individual enjoyment.",
+  //     "These tickets are your passport to a night of enchantment, where every detail is crafted to ensure your enjoyment. By choosing the Single Bite Escape, you're not just saving on costs but investing in a memorable experience that transcends the ordinary. Join us for a celebration that proves sophistication can be accessible, and a great time doesn't have to come with a hefty price",
+  //   ],
+  // },
 
   {
     name: "Bonnie and Clyde-AIESEC Couple",
