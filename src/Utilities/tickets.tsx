@@ -102,11 +102,29 @@ export const tickets = [
       "For graduates seeking an entryway into the rich history of AIESEC, 'Old Money' alumni tickets at ₦15,000 offer a cost-effective and meaningful choice. This ticket not only grants access to the celebration but also invites you to be a part of a community that cherishes the legacy of AIESEC. Join us for a night of nostalgia, where 'Old Money' becomes a bridge between the past and the future, connecting alumni in a shared experience that transcends time.",
     ],
   },
+  {
+    name: "Obsidian",
+    image:
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349120/IMG_8518_gnujqd.jpg",
+    images: [
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349127/IMG_8543_apa3dh.jpg",
+      "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703349117/IMG_2081_sxzz0z.jpg",
+    ],
+    description: [
+      "Embark on a memorable journey with 'The Obsidian' – your first taste of AIESEC's vibrant celebrations! Priced at ₦20,000, this exclusive group package promises an unforgettable night of camaraderie, joy, and budget-friendly excitement. Join us and make your debut at AIESEC in Lagos, where shared experiences become lifelong memories",
+    ],
+    price: "20,000",
+    subCategory: "Non-AIESECer",
+    slug: "the-obsidian",
+    explanation: [
+      "Elevate your company's celebration with 'The 8 Ball' Group Package at ₦100,000. This exclusive and cost-effective sponsorship guarantees your team a prime spot at the event, turning the evening into a shared experience. Revel in the company of your colleagues, where combined joy and savings make 'The 8 Ball' the ideal choice for sponsors who appreciate both camaraderie and economy. Make your mark and create impactful memories at AIESEC in Lagos",
+      "Make a lasting impression at AIESEC in Lagos with our 'The 8 Ball' Sponsor Tickets, priced at ₦100,000. This category goes beyond cost efficiency – it positions your brand in an exclusive and centralized location for an impactful celebration. Dive into the festivities with your team, sharing laughter and joy. Join us for a memorable evening that not only elevates your company's presence but also provides an exclusive and budget-friendly experience.",
+    ],
+  },
 
   {
     name: "The 8 Ball",
     image:
-      // "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1702988835/8Ball_gbbdnu.jpg",
       "https://res.cloudinary.com/dmpdhnjqs/image/upload/v1703353215/8ball-02_jyzdw7.jpg",
     description: [
       "Gather your friends and reserve 'The 8 Ball' for an unforgettable night of camaraderie and celebration. This ticket guarantees an exclusive table for eight, ensuring you and your companions have a prime spot to enjoy the festivities. Revel in the joy of togetherness and create a tableau of shared laughter and enjoyment.",
